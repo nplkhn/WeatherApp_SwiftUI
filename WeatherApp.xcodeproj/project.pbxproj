@@ -15,7 +15,6 @@
 		CC597A312D0F14CC0054741F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC597A302D0F14CC0054741F /* Preview Assets.xcassets */; };
 		CC597A382D0F1AC10054741F /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC597A372D0F1AC10054741F /* CurrentWeatherView.swift */; };
 		CC597A3A2D0F2B0C0054741F /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC597A392D0F2B0C0054741F /* WeatherService.swift */; };
-		CC597A3E2D0F52D80054741F /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC597A3D2D0F52D80054741F /* CurrentWeatherViewModel.swift */; };
 		CC597A402D0F53560054741F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC597A3F2D0F53560054741F /* WeatherModel.swift */; };
 		CC597A422D0F53D20054741F /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC597A412D0F53D20054741F /* PersistanceService.swift */; };
 		CCB886362D10C8CF006DECE3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB886352D10C8CE006DECE3 /* HomeViewModel.swift */; };
@@ -33,7 +32,6 @@
 		CC597A302D0F14CC0054741F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC597A372D0F1AC10054741F /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		CC597A392D0F2B0C0054741F /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		CC597A3D2D0F52D80054741F /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
 		CC597A3F2D0F53560054741F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		CC597A412D0F53D20054741F /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 		CCB886352D10C8CE006DECE3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				CC597A372D0F1AC10054741F /* CurrentWeatherView.swift */,
-				CC597A3D2D0F52D80054741F /* CurrentWeatherViewModel.swift */,
 			);
 			path = CurrentWeatherView;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC597A3E2D0F52D80054741F /* CurrentWeatherViewModel.swift in Sources */,
 				CC597A3A2D0F2B0C0054741F /* WeatherService.swift in Sources */,
 				CC597A402D0F53560054741F /* WeatherModel.swift in Sources */,
 				CC4F33962D12FC8E0033689F /* Font+theme.swift in Sources */,
